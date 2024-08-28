@@ -1,0 +1,214 @@
+#wrapper{
+  width: 100%;
+  min-height: 100%;
+
+}
+body{
+  background: #f9f9f9;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.ss1 {
+
+}
+
+.inner{
+  max-width: 1200px;
+  margin: auto;
+
+}
+.nane_codau_chure{
+  font-family: 'Alex Brush', cursive;
+  font-size: 70px;
+  font-weight: 500;
+}
+.time_wedding{
+  font-weight: 500;
+  font-size: 18px;
+}
+.time_wedding1{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.ss1_cdcr{
+  background-color: white;
+  padding: 20px;
+  width: 330px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.ss1_cdcr_1c{
+  background-color: white;
+  padding: 15px;
+  width: 234px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.box_left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px 0 0;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  background-image: url('../images/background_after.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -400px;
+}
+
+.box_left .name_l1{
+  font-weight: 600;
+  font-size: 25px;
+  border-top: 3px solid black;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.box_right{
+  text-align: center;
+}
+.box_right .flex_eve{
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.box_right .flex_eve .name1{
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 35px;
+}
+.box_right .name2{
+  font-weight: 600;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.box_right .name3{
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.box_right .name4{
+  font-size: 24px;
+  font-style: italic;
+}
+.box_right .name7{
+  font-weight: 600;
+}
+
+.box_right .description{
+  font-style: italic;
+  font-size: 14;
+}
+
+.flex1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ .flex_eve1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+.flex_eve1 p{
+  padding: 20px 20px;
+}
+.vert-move1{
+  margin-bottom: 5px;
+}
+.box_right .name5, .box_right .name6{
+  font-family: 'Alex Brush', cursive;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+img.vert-move {
+  -webkit-animation: mover 1s infinite  alternate;
+  animation: mover 1s infinite  alternate;
+}
+img.vert-move {
+  -webkit-animation: mover 1s infinite  alternate;
+  animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-5px); }
+}
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-5px); }
+}
+
+.tilte_map{
+  font-family: 'Nunito', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.tilte_map2{
+  font-family: 'Nunito', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.ss3{
+  padding: 60px 0;
+}
+
+.ss4{
+  padding: 60px 0;
+}
+
+#gallary{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px; /* Khoảng cách giữa các phần tử */
+  justify-content: center; /* Căn giữa các hình ảnh */
+  padding: 15px; /* Khoảng cách từ lề đến nội dung */
+}
+#gallary a{
+  margin: 0;
+    flex: 1 1 calc(25% - 20px); /* 25% width minus gap */
+    box-sizing: border-box;
+    overflow: hidden;
+    transition: all .3s ease;
+}
+#gallary a:hover img{
+  transform: scale(1.2);
+}
+
+#gallary img {
+  width: 100%; /* Đảm bảo hình ảnh chiếm toàn bộ chiều rộng của thẻ p */
+  height: auto; /* Đảm bảo tỷ lệ khung hình của hình ảnh */
+  display: block; 
+  object-fit: cover;
+  transition: all .3s ease;
+}
+.video{
+  padding: 15px;
+  
+}
+
+.small-txt{
+  text-align: center;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.ss5 {
+  padding: 150px 0;
+  background: #efefef;
+}
+
+.day_time{
+  font-weight: bold;
+}
+.br640{
+  display: none;
+}

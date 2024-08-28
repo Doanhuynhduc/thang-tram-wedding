@@ -1,0 +1,87 @@
+@media screen and (min-width: 751px) {
+    .lightbox,.lightboxOverlay{min-width: 1260px;}
+
+    .under main .list_qa dt{height: 60px}
+    .under main .tb_note{display: none;}
+
+    /* HOVER */
+    .under main #topic_path li a:hover{text-decoration:underline}
+    .under main a.link:hover{text-decoration: none;}
+    .under main a.link[target="_blank"]:hover{text-decoration: underline;}
+
+    .under main .bnn a:hover{opacity: 0.7;}
+
+
+}
+
+@media screen and (max-width: 750px) {
+    .under main .section{padding:0 0 60px;box-sizing:border-box}
+    .under main .image_r,.under main .image_l,.under main .image_l.mb0,.under main .image_r.mb0{float:none;display:inline-block;width:100%;text-align:center;margin:0 auto 30px}
+
+    /*==========================================================
+                     C U S T O M
+    ==========================================================*/
+    .under main #content{padding:0 0 80px}
+
+    /*======= topic patch info ======== */
+    .under main #top_info{height:200px}
+    .under main #topic_path{margin-bottom:15px}
+    /*============ Heading ============ */
+    .under main h2{font-size:26px;}
+    .under main h3{font-size:23px}
+    .under main h4{font-size:20px;}
+    .under main h5{font-size:18px;}
+    .under main h6{font-size:17px;}
+    .under main p{margin-bottom:30px}
+    .under main ul,.under main li,.under main p,.under main dl,.under main dt,.under main dd{font-size: 14px;}
+
+    /*============ TABLE ============ */
+    /* table */
+    .under main table{margin-bottom:30px}
+    .under main table td,
+    .under main table th{padding:15px 10px}
+    .under main table.tb_block tr{display:flex;flex-direction:column}
+    .under main table.tb_block tr:not(:last-child) th{border-bottom:none}
+    .under main table.tb_block td + td{border-top: none;}
+    
+    .under main table.tb_block th,
+    .under main table.tb_block td{width: 100%;}
+
+    /* tb scroll */
+    .under main .tb_scroll{overflow:scroll;}
+    .under main .tb_scroll:not(:last-child){margin-bottom: 30px;}
+    .under main .tb_scroll table{width:720px}
+    .under main .tb_note{margin-bottom: 10px;color: #999;}
+
+    /*============ LIST ============ */
+    .under main .list01{}
+    .under main .list02{}
+    .under main .list_check{}
+
+    /* List QA */
+    .under main .list_qa dl{margin-bottom: 30px; padding: 15px 3%;}
+    .under main .list_qa dt span{top:3px;}
+    .under main .list_qa dt{font-size: 16px;min-height: 50px;padding-bottom: 3px;}
+
+    /* List STEP */
+    .under main .list_step dl{margin-bottom: 20px;padding-bottom: 40px}
+
+    /*============ FRAME ============ */
+    .under main .frame01{padding:40px 3%}
+
+    /*============ ORTHER ============ */
+    .under .box_map{height:250px}
+
+
+}
+@media screen and (max-width: 640px) {
+}
+/* screen-max:460px */
+
+@media screen and (max-width: 440px) {
+}
+/* screen-max:440px */
+
+@media screen and (max-width: 360px) {
+}
+/* screen-max:360px */

@@ -1,0 +1,56 @@
+.center{
+    text-align: center;
+}
+p{
+   margin: 0 0 10px 0;
+   font-family: 'Nunito', sans-serif;
+}
+.flex{
+    display: flex;
+}
+.flex_cen{
+    display: flex;
+    justify-content: center;
+}
+.flex_spa{
+    display: flex;
+    justify-content: space-between;
+}
+.flex_eve{
+    display: flex;
+    justify-content: space-evenly;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.ver_cen{
+    align-items: center;
+}
+.pd30{
+    padding: 30px 0px;
+}
+.pd40{
+    padding: 40px 0px;
+}
+.pd50{
+    padding: 50px 0px;
+}
+.mb20{
+    margin-bottom: 20px;
+}
+.mr10{
+    margin-right: 10px;
+}
+.box2 .w30{
+    width: 40%;
+}
+.box2 .w70{
+    width: 60%;
+}
+p{
+    font-size: 20px;
+}
+.bold{
+    font-weight: 600;
+}
