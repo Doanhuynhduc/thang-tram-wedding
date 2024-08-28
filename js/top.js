@@ -1,6 +1,6 @@
 $(document).ready(function() {
     // Thời gian mục tiêu (ví dụ: 31/12/2024 23:59:59)
-    var countDownDate = new Date("Sep 19, 2024 23:59:59").getTime();
+    var countDownDate = new Date("Sep 14, 2024 11:00:00").getTime();
 
     // Cập nhật mỗi giây
     var x = setInterval(function() {
