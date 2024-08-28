@@ -42,8 +42,9 @@
     }
     .box_right .name5, .box_right .name6 {
         font-family: 'Alex Brush', cursive;
-        font-size: 6vw;
+        font-size: 8vw;
         font-weight: 600;
+        padding: 10px;
     }
     .box2 .w70 {
         width: 100%;
@@ -91,7 +92,7 @@
         font-size: 4vw;
     }
     .box_right .name4 {
-        font-size: 24px;
+        font-size: 4vw;
 
     }
 }
